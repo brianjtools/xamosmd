@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>XamOSMD</title>
+</head>
+<body>
+    <script src="opensheetmusicdisplay.min.js"></script>
+    <div id="osmdCanvas"></div>
+     <script type="text/javascript">
+        function render_osmd() {
+            var ret = "yes";
+            var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("osmdCanvas");
+            if (osmd == null)
+                ret = "no";
+            else {
+                osmd.load(str).then(
+                    function () {
+                        osmd.render();
+                    }
+                )
+            }
+            return ret;
+        }
+    </script>
+
+</body>
+</html>
