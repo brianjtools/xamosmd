@@ -4,7 +4,7 @@ using the Xamarin Forms Webview with C#, HTML and JavaScript.
 The library:
 http://opensheetmusicdisplay.org
 
-The project also depends on the Xamarin FilePicker Plugin.  This example is explained in detail at http://brianconrad.com/sheetmusic
+The project also depends on the Xamarin FilePicker Plugin.  This example is explained in detail at http://brianconrad.com/2019/06/20/sheetmusic/
 
 ## Usage:
 * Clone or download this repository
